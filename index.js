@@ -59,7 +59,6 @@ app.get('/youtube',(req,res)=>{
 
 app.get("/github",(req,res)=>{
   res.json(githubData)
-
 })
 
 app.listen(process.env.PORT, () => {
